@@ -1,36 +1,46 @@
-# Arduino PIR Motion Detection System
+# Arduino & Tinkercad Projects
 
-A simple motion detection system designed and simulated using Arduino UNO and Tinkercad.
+A collection of my Arduino-based projects and Tinkercad simulations created while learning electronics, embedded systems, and programming.
 
-## Components
+## Projects
 
+### 1. PIR Motion Detection System
+
+A motion detection system using a PIR sensor and Arduino UNO.
+
+**Components:**
 - Arduino UNO
 - PIR Motion Sensor
 - LED
 - Buzzer
 - DC Motor
 
-## Working
+**Working:**  
+When motion is detected, the Arduino turns ON the LED, buzzer, and motor.
 
-The PIR sensor detects movement and sends a signal to the Arduino.
+---
 
-When motion is detected:
-- LED turns ON
-- Buzzer turns ON
-- Motor turns ON
-- Serial Monitor displays "Motion Detected"
+### 2. Ultrasonic Distance Measurement System
 
-When there is no motion, all outputs are turned OFF.
+A distance measurement system using an HC-SR04 ultrasonic sensor and Arduino UNO.
 
-## Pin Configuration
+**Components:**
+- Arduino UNO
+- HC-SR04 Ultrasonic Sensor
+- 16x2 LCD Display
 
-| Component | Arduino Pin |
-|---|---|
-| PIR Sensor | D2 |
-| Motor | D6 |
-| Buzzer | D9 |
-| LED | D10 |
+**Working:**  
+The ultrasonic sensor measures the distance of an object, and the Arduino displays the distance on the LCD in centimeters.
 
-## Simulation
+---
 
-The circuit was designed and tested using Tinkercad.
+## Tools & Technologies
+
+- Arduino UNO
+- C/C++
+- Tinkercad
+- Sensors & Actuators
+
+## About
+
+These projects are part of my hands-on learning in electronics, embedded systems, and programming.
